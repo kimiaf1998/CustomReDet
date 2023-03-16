@@ -11,8 +11,8 @@ cimport cython
 import numpy as np
 cimport numpy as np
 
-DTYPE = 'float'
-ctypedef np.double DTYPE_t
+DTYPE = np.float
+ctypedef np.float_t DTYPE_t
 
 def bbox_overlaps_cython(
         np.ndarray[DTYPE_t, ndim=2] boxes,
