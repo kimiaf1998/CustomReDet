@@ -10,7 +10,6 @@ from .concat_dataset import ConcatDataset
 from .repeat_dataset import RepeatDataset
 from .. import datasets
 
-
 def to_tensor(data):
     """Convert objects of various python types to :obj:`torch.Tensor`.
 
