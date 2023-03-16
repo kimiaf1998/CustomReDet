@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import mmcv
 import numpy as np
 import torch
-from collections import Sequence
+from collections.abc import Sequence
 from mmcv.runner import obj_from_dict
 
 from .concat_dataset import ConcatDataset
